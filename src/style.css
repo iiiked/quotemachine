@@ -1,0 +1,6 @@
+@custom-selector :--enter :hover, :focus;
+
+
+h1:--enter {
+    color: color(red a(50%));
+}
