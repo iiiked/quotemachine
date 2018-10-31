@@ -1,7 +1,7 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   background-color: var(--gradient-fallback-bg);
@@ -18,9 +18,15 @@
   transition: opacity 6s;
 }
 
+.top-margin {
+  position: relative;
+  flex: 0 10 25%;
+}
+
 .quote-container {
   max-width: calc(640px + 8em);
   padding: 5em 4em 4em 4em;
+  margin-top: 2.5em;
   position: relative;
   z-index: 2;
 }
@@ -89,10 +95,8 @@
 #appNav {
   width: 100%;
   max-width: calc(640px + 8em);
-  position: fixed;
   z-index: 2;
-  bottom: 2em;
-  padding: 0 12px;
+  padding: 2.5em 12px 1.5em 12px;
 }
 .inline-list {
   display: flex;

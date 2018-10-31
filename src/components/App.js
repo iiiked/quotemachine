@@ -101,6 +101,7 @@ class App extends React.Component {
     return (
       <div className="wrapper">
         <div className="gradient-wrapper" />
+        <div className="top-margin" />
         <Quote text={this.state.quoteText} author={this.state.quoteAuthor} />
         <AppNav quoteText={this.state.quoteText} quoteAuthor={this.state.quoteAuthor} newQuote={this.updateQuote} goBack={this.handleGoBack} />
       </div>
