@@ -42,13 +42,7 @@
     "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
-    "immutable": "^3.8.2",
-    "lodash": "^4.17.11",
-    "postcss-color-function": "^4.0.1",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
-    "redux-thunk": "^2.3.0"
+    "react-dom": "^16.5.2"
   }
 }

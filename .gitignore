@@ -52,8 +52,5 @@ typings/
 # .DS_Store file
 .DS_Store
 
-# Build directory
-dist/
-
 # Private directory
 private/

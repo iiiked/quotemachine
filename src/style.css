@@ -1,6 +1,50 @@
-@custom-selector :--enter :hover, :focus;
+@import "./utils/styles/normalize.css";
 
+/*===================================================================*/
+/*
+/*  GRADIENT VARIABLES
+/*
+/*===================================================================*/
 
-h1:--enter {
-    color: color(red a(50%));
+:root {
+  --gradient-color-start: #21D4FD;
+  --gradient-color-end: #B721FF;
+  --gradient-angle: -45deg;
+  --fallback-bg-color: #21D4FD;
+  --text-color: #fff;
 }
+
+/*===================================================================*/
+/*
+/*  NON-REACT
+/*
+/*===================================================================*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #appContainer, #appContainer .wrapper {
+  min-height: 100vh;
+}
+
+/*===================================================================*/
+/*
+/*  TYPOGRAPHY
+/*
+/*===================================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Special+Elite');
+
+body {
+  font-family: 'Josefin Slab', serif;
+  text-shadow: 1px 1px 1px #3a3a3a80;
+}
+
+/*===================================================================*/
+/*
+/*  COMPONENTS
+/*
+/*===================================================================*/
+
+@import "./components/App.css";
